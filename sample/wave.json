@@ -1,0 +1,6 @@
+{
+  "window_error_code": "E_BAD_WINDOW",
+  "empty_error_code": "E_EMPTY_SAMPLES",
+  "samples": [5, 3, 8, 1, 9, 2, 7, 4, 6, 0, 11, 10],
+  "window": [2, 9]
+}
