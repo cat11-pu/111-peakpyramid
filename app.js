@@ -10,5 +10,5 @@ export function render(spec) {
   const all = queryRange(samples, pyramid, 0, samples.length);
   return { level_count: pyramid.length, level2_nodes: (pyramid[2] || []).length,
            window_min: view.min, window_max: view.max, all_min: all.min, all_max: all.max,
-           touched: view.touched, cheap_ok: true };
+           touched: view.touched, cheap_ok: view.touched < samples.length };
 }
